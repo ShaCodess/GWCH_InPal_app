@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.onboarding p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+
+.onboarding {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+  justify-content: space-between;
+}
+
+.arrow-back {
+  margin-left: 5vw;
+  align-self: flex-start;
+}
+
+.sound-icon{
+  position: relative;
+  left: -8px;
+}
+
+.volume-icon {
+  margin-right: 2vw;
+  align-self: flex-end;
+}
+
+.content3 {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-justify: inter-word;
+}
+
+.btn {
+  bottom: 0;
+  position: absolute;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+
+.back h3 {
+  margin-left: 2px; 
+}
+
+h3{
+  color: grey;
+  font-weight: 600;
+}
+
+.base-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.bi-1{
+  top: 14vh !important;
+}
+
+.bi-2{
+  top: 9vh;
+}
+
+.bi-3{
+  top: 9vh;
+}
+
+.bi-4{
+  top: 12.5vh;
+}
+
+.no-underline{
+  text-decoration: none;
+}
+
+.no-underline h3{
+  color: black;
+}
+
+.circle {
+  position: relative;
+  margin-right: 5%;
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: #A7E92F;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.arrow-icon {
+  position: relative;
+  z-index: 1;
+}
+
+.welcome-out{
+  position: relative;
+  top: 54vw;
+}
+
+.welcome-heading{
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2vh;
+}
+
+.welcome-heading small{
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.input-phone-number input[type=text]{
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid rgb(154, 153, 153);
+  width: 75vw;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 500;
+  height: 50px;
+}
+
+.input-phone-number input[type=text]:focus{
+  outline: none;
+}
+
+.input-phone-number ::placeholder{
+  position: relative;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.btn-height{
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 15px 0;
+  margin-bottom: 1vh;
+}
+
+.onboarding-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.onboarding-loader img {
+  height: 200px; /* Set the height as desired */
+  width: 200px; /* Set the width as desired */
+  /* Add any additional styles for the loader image */
+}
+
+.onboarding-title {
+  margin-top: 100px;
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.onboarding h2{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 30px;
+}

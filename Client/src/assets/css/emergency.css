@@ -1,0 +1,95 @@
+.emergency-heading{
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4vh;
+}
+
+.forward-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5vh;
+    margin-right: 2vw;
+}
+
+.flag{
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.input-phone-number{
+    margin-bottom: 3vh;
+}
+
+.input-phone-number input[type=tel]{
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid rgb(154, 153, 153);
+    width: 50vw;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    text-align: left;
+}
+.input-phone-number input[type=text]{
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid rgb(154, 153, 153);
+    width: 80vw;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    text-align: left;
+}
+
+.input-phone-number-right span{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.input-phone-number input[type=tel]:focus{
+    outline: none;
+}
+
+
+.forward-icons h3 {
+    margin-right: 2px; 
+}
+
+.back-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4vh;
+    margin-left: 5vw;
+}
+
+.back-icons h3 {
+    margin-left: 2px; 
+}
+
+.icons-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-em-cons{
+    color: black !important;
+}
+
+.btn-emergency{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+
+.btn-emergency p{
+    color: black;
+}
